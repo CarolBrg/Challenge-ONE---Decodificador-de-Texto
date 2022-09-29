@@ -1,0 +1,135 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+body {
+  background-color: #F3F5FC;
+}
+
+main {
+  display: flex;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+#input-texto {
+  width: 600px;
+  height: 400px;
+  background-color: transparent;
+  font-size: 32px;
+  color: #0A3871;
+  border: none;
+  outline: none;
+  margin-top: 90px;
+}
+
+.informacao {
+  font-size: 15px;
+  color: #495057;
+  margin-bottom: 10px;
+}
+
+.caixa-mensagem {
+  width: 400px;
+  height: 750px;
+  position: absolute;
+  width: 400px;
+  height: 750px;
+  left: 70%;
+  top: 20px;
+  border-radius: 32px;
+  border-color: transparent;
+  background-color: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.div-desaparece {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #343A40;
+  padding-top: 40px;
+  background: #FFFFFF;
+}
+
+.div-desaparece h2 {
+  font-size: 27px;
+}
+
+.div-desaparece h3 {
+  font-size: 16px;
+}
+
+.div-aparece {
+  padding-top: 40px;
+  background: #FFFFFF;
+}
+
+#mensagem {
+  position: absolute;
+  width: 400px;
+  height: 781px;
+  padding-left: 10px;
+  padding-right: 10px;
+  top: 52px;
+  font-size: 22px;
+  line-height: 150%;
+  resize: none;
+  color: #495057;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+#btn-copiar {
+  background-color: #E9ECF8;
+  top: 660px;
+  position: absolute;
+  width: 336px;
+  height: 67px;
+  left: 32px;
+  border-radius: 24px;
+  border-color: #0A3871;
+  font-size: 20px;
+  color: #0A3871;
+  cursor: pointer;
+}
+
+.copiar {
+  position: relative;
+  margin-top: 330px;
+  margin-left: 205px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.encriptar {
+  background-color: #0A3871;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin: 0 24px;
+  cursor: pointer;
+}
+
+.desencriptar {
+  background-color: #D8DFE8;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  border-color: #0A3871;
+  font-size: 20px;
+  color: #0A3871;
+  margin: 0 24px;
+  cursor: pointer;
+}
